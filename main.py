@@ -1,4 +1,9 @@
 from functions import add_todo, show_todos, edit_todo, complete_todo
+import time
+
+now = time.strftime("%b %d, %Y %H:%M:%S")
+print("The time is below")
+print("Is is", now)
 
 while True:
     user_action = input("Type add, show, edit, complete or exit: ").strip().lower()
