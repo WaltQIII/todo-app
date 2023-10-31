@@ -2,7 +2,6 @@ from functions import add_todo, show_todos, edit_todo, complete_todo
 import time
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
-print("The time is below")
 print("Is is", now)
 
 while True:
