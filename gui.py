@@ -56,6 +56,7 @@ while True:
             else:
                 sg.popup_error("Please select a todo to complete")
         case "Exit":
+            break
         case sg.WIN_CLOSED:
             break
         case 'todos':
